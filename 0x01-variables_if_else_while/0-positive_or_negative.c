@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - entry point
- *
- * Return:always return
+ * Description: prints  if a number is positive or negative.
+ * Return:always return 0
  *
  */
 int main(void)
@@ -25,4 +24,4 @@ int main(void)
 		printf("%d is positive\n", n);
 	}	
 	return(0);
-}	
+}
